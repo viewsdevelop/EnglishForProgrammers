@@ -3,7 +3,7 @@
 nouns = {
   "vez" => "time",
   "año" => "year",
-  "tiempo" => "time",
+  "hombre" => "man",
   "día" => "day",
   "cosa" => "thing"
 }
