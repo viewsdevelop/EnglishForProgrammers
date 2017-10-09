@@ -17,11 +17,11 @@ def test(nouns, term, guess)
   end
 end
 
-# Select one random Spanish Term
+# Select one random English Term
 
 term = nouns.keys.sample
 
-# Prompt the User for an equivalent English term.
+# Prompt the User for an equivalent Spanish term.
 
 puts `say "What is the Spanish translation of the word: #{term}?"`
 
