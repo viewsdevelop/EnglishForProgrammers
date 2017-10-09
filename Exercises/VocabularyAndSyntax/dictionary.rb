@@ -11,9 +11,7 @@ nouns = {
 # Define a method to neatly compare Term with Guess
 
 def test(nouns, term, guess)
-  if guess == nouns[term]
-    puts "Correct!"
-  else
+  unless guess == nouns[term]
     puts "Incorrect! Guess again."
   end
 end
